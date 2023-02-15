@@ -1,6 +1,7 @@
 {
   "name": "crafty",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc --noEmit ./index.ts && esbuild index.ts --bundle --platform=node --format=cjs --outfile=dist/index.js"
@@ -19,15 +20,6 @@
     "ts-jest": "^29.0.5",
     "typescript": "^4.9.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LeJ84/crafty-tdd.git"
-  },
-  "bugs": {
-    "url": "https://github.com/LeJ84/crafty-tdd/issues"
-  },
-  "homepage": "https://github.com/LeJ84/crafty-tdd#readme",
-  "description": "",
   "dependencies": {
     "commander": "^10.0.0"
   }
