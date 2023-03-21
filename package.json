@@ -21,20 +21,14 @@
   },
   "repository": {
     "type": "git",
-<<<<<<< HEAD
     "url": "git+https://github.com/LeJ84/crafty-tdd.git"
   },
   "bugs": {
     "url": "https://github.com/LeJ84/crafty-tdd/issues"
   },
   "homepage": "https://github.com/LeJ84/crafty-tdd#readme",
-=======
-    "url": "git+https://github.com/Craft-Academy/crafty.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Craft-Academy/crafty/issues"
-  },
-  "homepage": "https://github.com/Craft-Academy/crafty#readme",
->>>>>>> 03015ce (Add message rules)
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
 }
